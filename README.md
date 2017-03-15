@@ -1,5 +1,5 @@
 # SnapForArduino
-Snap! for arduino
+Snap4Arduino is a modification of the Snap! visual programming language that lets you seamlessly interact with [kadapapa](http://www.kadapapa.com) board.
 
 Acknowledgements
 ================
