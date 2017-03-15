@@ -1,6 +1,6 @@
 const http = require('http')
 const querystring = require('querystring')
-const cloudUrl = 'http://115.28.211.237:8686'
+const cloudUrl = ''
 SnapCloud = new Cloud(cloudUrl)
 
 Cloud.prototype.originalSignup = Cloud.prototype.signup;
@@ -164,8 +164,8 @@ Cloud.prototype.saveProject = function (ide, callBack, errorCall) {
 
     let { username } = querystring.parse(localStorage['-snap-user'])
     let options = {
-        hostname: '115.28.211.237',
-        port: 8686,
+        hostname: '',
+        port: ,
         path: `/saveProject?username=${username || myself.username}&projectname=${encodeURIComponent(ide.projectName)}`,
         method: 'POST',
         headers: {
